@@ -1,0 +1,69 @@
+.lowerfooterSection
+{
+    padding: 20px 0;
+    border-top: 1px solid #e1e1e1;
+    text-align: center !important;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: .03em;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #777777;
+}
+.lowerfooterContainer
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.rights {
+    letter-spacing: 0;
+    color: #777777;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+}
+.rights a{
+    color: #777777;
+}
+
+@media (min-width: 576px)
+{
+    .lowerfooterContainer
+    {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px)
+{
+    .lowerfooterContainer
+    {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px)
+{
+    .lowerfooterSection
+    {
+        padding: 30px 0;
+    }
+    .lowerfooterContainer
+    {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .lowerfooterSection
+    {
+        padding: 35px 0;
+    }
+    .lowerfooterContainer
+    {
+        max-width: 1200px;
+    }
+}
+@media (min-width: 1600px)
+{
+
+}

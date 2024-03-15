@@ -1,0 +1,243 @@
+.firstBanner
+{
+    background-image: url(../../../../images/home-bg-1.jpg);
+    background-position: center;
+    position: relative;
+    margin-top: 0;
+    /* padding: 110px 0; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffd33b;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: .03em;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding: 70px 0;
+}
+.bannercontainer
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.banner1InnerContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+}
+.bannerInfo
+{
+    text-align: left !important;
+    padding: 0 15px;
+    max-width: 100%;
+}
+.bannercontainer h1
+{
+    color: white;
+    font-weight: 700;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.secondLine
+{
+    color: white;
+    margin-top: 10px;
+    /* letter-spacing: .075em; */
+    line-height: 1.33333;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.bannerInfo h4{
+    color: white;
+    margin-top: 25px;
+    letter-spacing: .1em;
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.buttondWrap
+    {
+        margin-top: 30px;
+    }
+
+.buttondWrap a{
+    color: #151515;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-size: 14px;
+    line-height: 2;
+    padding: 9px 25px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 14px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: all 250ms ease-in-out;
+    line-height: 2;
+}
+
+
+@media (min-width: 576px)
+{
+    .firstBanner
+    {
+        
+    }
+    .bannercontainer
+    {
+        max-width: 540px;
+    }
+    h1{
+        font-size: 32px;
+    line-height: 1.25;
+    }
+    .secondLine
+    {
+        padding-left: 25px;
+        position: relative;
+    }
+    h3
+    {
+        font-size: 22px;
+    line-height: 1.33333;
+    }
+    .secondLine:before
+    {
+        content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    width: 15px;
+    background-color: #ffffff;
+    }
+    h4{
+        font-size: 18px;
+    line-height: 1.5;
+    }
+}
+@media (min-width: 768px)
+{
+    .firstBanner
+    {
+        padding: 90px 0;
+        font-size: 15px;
+    }
+    .bannercontainer
+    {
+        max-width: 720px;
+    }
+    .bannerInfo
+    {
+        flex: 0 0 auto;
+    width: 66.66667%;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .secondLine
+    {
+        padding-left: 85px;
+    }
+    h3
+    {
+        font-size: 26px;
+    }
+    .secondLine:before
+    {
+        width: 60px;
+    left: 8px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .buttondWrap a
+    {
+        padding: 14px 45px;
+    }
+}
+@media (min-width: 992px)
+{
+    .firstBanner
+    {
+        padding: 100px 0;
+    }
+    .bannercontainer
+    {
+        max-width: 960px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h3
+    {
+        font-size: 30px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    .buttondWrap a
+    {
+        padding: 19px 50px;
+    }
+
+}
+@media (min-width: 1200px)
+{
+    .firstBanner
+    {
+        padding: 110px 0;
+    }
+    .bannercontainer
+    {
+        max-width: 1200px;
+    }
+    .bannerInfo
+    {
+        flex: 0 0 auto;
+    width: 58.33333%;
+    }
+    h1{
+        font-size: 100px;
+    }
+    h3
+    {
+        font-size: 36px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    .buttondWrap
+    {
+        margin-top: 38px;
+    }
+}
+@media (min-width: 1600px)
+{
+
+}

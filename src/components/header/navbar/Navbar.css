@@ -1,0 +1,119 @@
+/* .pe-3
+{
+    margin-left: 148px;
+} */
+*
+{
+    box-sizing: border-box;
+}
+.navbar0
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: .03em;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    max-width: 540px;
+}
+.navbar
+{
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #e1e1e1;
+}
+.container-fluid{
+    padding: 0 15px 0 15px ;
+}
+.Offcanvas-Body
+{
+    margin-left: 148px;
+    margin-right: 148px;
+    display: flex;
+    justify-content: space-between;
+}
+.justify-content-start
+{
+    width: 2% !important;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.justify-content-end
+{
+    width: auto;
+}
+.Nav-Link
+{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding:25px 0px 25px 0px !important;
+    font-size: 14px;
+    line-height: 1.2;
+    color: black;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.Nav-Link-Home
+{
+    border-top:7px #ffd33b solid;
+    padding:18px 0px 18px 0px !important;
+}
+.searchIcon,.cartIcon
+{
+    width: 30px;
+    height: 30px;
+    color: #151515;
+    padding: 0 !important;
+}
+.Nav-Link-Gallery:hover,.justify-content-end .searchIcon:hover,.justify-content-end .cartIcon:hover
+{
+    color: #ffd33b !important;
+}
+.Nav-Link-Pages:hover,.Nav-Link-Blog:hover,.Nav-Link-Elements:hover,.Nav-Link-Shop:hover
+{
+    border-top:7px #ffd33b solid;
+    padding:18px 0px 18px 0px !important;
+}
+
+
+@media (min-width: 576px)
+{
+}
+@media (min-width: 768px)
+{
+    .navbar0
+    {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px)
+{
+    .navbar0
+    {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .navbar0
+    {
+        max-width: 1200px;
+    }
+}
+@media (min-width: 1600px)
+{
+
+}

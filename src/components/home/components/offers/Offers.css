@@ -1,0 +1,217 @@
+.Offers
+{
+    background-size: cover;
+    background-position: center center;
+    background-color: #f7f7f7;
+    padding: 70px 0;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: .03em;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.Offers_container
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Offers_container h2{
+    padding-bottom: 20px;
+    line-height: 1.18182;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: normal;
+    color: #151515;
+}
+.Offers_CardContainer
+{
+    margin-top: 30px;
+    margin-bottom: -50px;
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Offers_CardContainer .Offers_Card
+{
+    margin-bottom: 50px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding:0 15px;
+}
+.box-icon-classic {
+    text-align: center;
+}
+.box-icon-classic .unit {
+    display: flex;
+    flex: 0 1 100%;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    flex-direction: column;
+
+}
+.Offers .unit-left,.Offers .unit-right {
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+.Offers .unit > * {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.Offers .box-icon-classic-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 80px;
+    width: 80px;
+    line-height: 60px;
+    color: #151515;
+    border-radius: 50%;
+    background: #ffd33b;
+}
+.Offers img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    width: 50px;
+    aspect-ratio: auto 50 / 50;
+}
+.box-icon-classic-title {
+    font-weight: 600;
+}
+.Offers h4
+{
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: normal;
+    color: #151515;
+}
+.Offers h4 a{
+    color: inherit;
+}
+.Offers .box-icon-classic-text {
+    margin-top: 6px;
+    letter-spacing: .025em;
+}
+
+@media (min-width: 576px)
+{
+    .Offers_container
+    {
+        max-width: 540px;
+    }
+    .Offers_CardContainer .Offers_Card
+    {
+        flex: 0 0 auto;
+    width: 50%;
+    }
+    .flex-sm-row {
+        flex-direction: row;
+    }
+}
+@media (min-width: 768px)
+{
+    .Offers
+    {
+        padding: 80px 0;
+        font-size: 15px;
+    }
+    .Offers_container
+    {
+        max-width: 720px;
+    }
+    .Offers_container h2
+    {
+        font-size: 35px;
+    }
+    .Offers_CardContainer
+    {
+        margin-top: 40px;
+    }
+    .Offers_CardContainer .Offers_Card
+    {
+        flex: 0 0 auto;
+    width: 33.33333%;
+    }
+    .box-icon-classic {
+        text-align: left;
+    }
+    .flex-md-column {
+        flex-direction: column;
+    }
+    .Offers h4
+    {
+        font-size: 20px;
+    }
+    .Offers .box-icon-classic-text {
+        margin-top: 10px;
+    }
+}
+@media (min-width: 992px)
+{
+    .Offers
+    {
+        padding: 90px 0;
+    }
+    .Offers_container
+    {
+        max-width: 960;
+    }
+    .Offers_container h2
+    {
+        font-size: 45px;
+    }
+    .box-icon-classic-icon {
+        font-size: 40px;
+        line-height: 90px;
+    }
+    .box-icon-classic-icon, .box-icon-classic-svg {
+        height: 90px;
+        width: 90px;
+    }
+    .Offers h4
+    {
+        font-size: 22px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .Offers
+    {
+        padding: 110px 0;
+    }
+    .Offers_container
+    {
+        max-width: 1200px;
+    }
+    .Offers_container h2
+    {
+        padding-bottom: 50px;
+        font-size: 55px;
+    }
+    .flex-xl-row {
+        flex-direction: row;
+    }
+    .box-icon-classic-title {
+        margin-top: 4px;
+    }
+    .Offers h4
+    {
+        font-size: 24px;
+    }
+}

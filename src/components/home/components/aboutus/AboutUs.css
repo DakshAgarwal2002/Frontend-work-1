@@ -1,0 +1,437 @@
+.AboutUs_Section
+{
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: .03em;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #777777;
+    padding: 70px 0;
+}
+.AboutUs_Container
+{
+    padding: 0 15px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: normal;
+    color: #151515;
+    text-align: center;
+    width: 100%;
+    animation: fadeScale;
+}
+@keyframes fadeScale
+{
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.Mainframe
+{
+    margin-bottom: -30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.MainframeLeft,.MainframeRight
+{
+    margin-bottom: 30px;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.MainframeLeft
+{
+    animation-name: fadeInLeft;
+}
+.MainframeRight
+{
+    animation-name: fadeInRight;
+}
+@keyframes fadeInLeft
+{
+    0% {
+        opacity: 0;
+        transform: translate3d(-40px, 0, 0);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes fadeInRight
+{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(40px, 0, 0);
+        transform: translate3d(40px, 0, 0);
+    }
+    
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+img {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+
+.MainframeRightContainer
+{
+    text-align: left;
+    display: block;
+    visibility: visible;
+    width: 100%;
+}
+
+.TabContent > .tab-pane {
+    display: block;
+    transition: opacity 0.15s linear;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+.TabContent > .active {
+    visibility: visible;
+    height: auto;
+    overflow: visible;
+    background-color: white;
+}
+.box-info-creative {
+    color: #151515;
+    background: #ffffff;
+}
+.box-info-creative-title {
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-bottom: 0;
+}
+.box-info-creative-title a{
+    text-decoration: none;
+    color: black;
+}
+
+.link-classic, .link-classic:focus, .link-classic:active {
+    color: #a3a3a3;
+}
+.link-classic {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.9;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    transition: all .25s ease;
+    text-decoration: none;
+}
+.link-classic::after {
+    display: block;
+    content: '';
+    height: 0;
+    width: 100%;
+    border-top: 2px solid;
+    transition: transform .2s ease;
+}
+.tabs-jean .nav-tabs-wrap {
+    padding: 10px;
+    background: #f7f7f7;
+}
+.tabs-jean .nav-tabs {
+    display: block;
+    text-align: center;
+}
+.tabs-custom .nav-tabs {
+    font-size: 0;
+    line-height: 0;
+    word-spacing: 0;
+    border: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.tabs-custom .nav-item {
+    float: none;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+    transition: .33s all ease;
+}
+.tabs-custom .nav-link.active {
+    cursor: default;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.tabs-jean .nav-link {
+    position: relative;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(21, 21, 21, 0.41);
+    background: transparent;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+}
+.nav-link {
+    display: block;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.tabs-jean .nav-link.active::before, .tabs-jean .nav-link:hover::before {
+    color: rgba(255, 211, 59, 0.2);
+}
+.tabs-jean .nav-link::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1;
+    color: rgba(21, 21, 21, 0.1);
+    transform: translate3d(-50%, -50%, 0);
+    transition: inherit;
+}
+
+.tabs-jean .nav-link::after {
+    display: none;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 13px 10px 13px;
+    border-color: transparent transparent #f7f7f7 transparent;
+    transform: translate3d(-50%, 0, 0);
+    transition: all .25s ease;
+}
+.tabs-jean .nav-link.active::after {
+    transform: translate3d(-50%, -100%, 0);
+}
+/* Media Queries */
+@media (min-width: 576px)
+{
+    .AboutUs_Container
+    {
+        max-width: 540px;
+    }
+    h2{
+        font-size: 26px;
+    line-height: 1.18182;
+    }
+    .Mainframe
+{
+    margin-top: 30px;
+}
+.MainframeLeft
+{
+    flex: 0 0 auto;
+    width: 66.66667%;
+}
+.TabContent
+{
+    position: relative;
+    padding: 8% 0 14% 17%;
+    z-index: 1;
+}
+.TabContent:before
+{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 44%;
+    border: 15px solid #ffd33b;
+    z-index: -1;
+}
+.box-info-creative {
+    text-align: left;
+    padding: 26px 0 0;
+}
+h4
+{
+    font-size: 18px;
+    line-height: 1.5;
+}
+* + .box-info-creative-text {
+    margin-top: 18px;
+}
+* + .box-info-creative-link {
+    margin-top: 0;
+}
+.box-info-creative-link {
+    top: 20px;
+    margin-left: 46%;
+}
+.tabs-jean * + .nav-tabs-wrap {
+    margin-top: 40px;
+}
+.tabs-jean .nav-tabs-wrap {
+    padding: 0 20px 1px;
+}
+.tabs-jean .nav-tabs {
+    counter-reset: li;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -30px;
+}
+.nav-tabs > .nav-item {
+    margin-left: 30px;
+}
+.tabs-jean .nav-link.active, .tabs-jean .nav-link:hover {
+    color: #ffd33b;
+    background: transparent;
+}
+.tabs-jean .nav-link {
+    padding: 35px 0;
+}
+.tabs-jean .nav-tabs li a::before {
+    content: counter(li, decimal-leading-zero);
+    counter-increment: li;
+}
+.tabs-jean .nav-link::after {
+    display: block;
+}
+}
+
+@media (min-width: 768px)
+{
+    .AboutUs_Section {
+        padding: 80px 0;
+    }
+    .AboutUs_Container
+{
+    max-width: 720px;
+}
+h2{
+    font-size: 35px;
+}
+.Mainframe
+{
+    margin-top: 40px;
+}
+.MainframeLeft
+{
+    flex: 0 0 auto;
+    width: 58.33333%;
+}
+.MainframeRight
+{
+    flex: 0 0 auto;
+    width: 83.33333%;
+}
+h4
+{
+    font-size: 22px;
+}
+.tabs-jean .nav-link {
+    padding: 40px 0;
+}
+.tabs-jean .nav-link::before {
+    font-size: 80px;
+}
+}
+
+@media (min-width: 992px){
+    .AboutUs_Section {
+    padding: 90px 0;
+}
+.AboutUs_Container
+{
+    max-width: 960px;
+}
+h2{
+    font-size: 45px;
+}
+.MainframeLeft
+{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.MainframeRight
+{
+    flex: 0 0 auto;
+    width: 50%;
+}
+h4
+{
+    font-size: 22px;
+}
+}
+
+@media (min-width: 1200px){
+.AboutUs_Section {
+    padding: 110px 0;
+}
+.AboutUs_Container
+{
+    max-width: 1200px;
+}
+h2{
+    font-size: 55px;
+}
+.Mainframe
+{
+    margin-top: 50px;
+}
+.TabContent
+{
+    padding-right: 5%;
+}
+h4
+{
+    font-size: 24px;
+}
+.tabs-jean .nav-tabs-wrap {
+    margin-top: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.tabs-jean .nav-link {
+    padding: 56px 0;
+}
+.tabs-jean .nav-link::before {
+    font-size: 100px;
+}
+}

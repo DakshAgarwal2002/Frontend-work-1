@@ -1,0 +1,291 @@
+.clientSection
+{
+    background-size: cover;
+    background-position: center center;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: .03em;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    -webkit-text-size-adjust: none;
+    padding: 70px 0;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.clientSection::selection {
+    background: #ffd33b;
+    color: #ffffff;
+}
+.clientContainer
+{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 15px);
+    padding-left: var(--bs-gutter-x, 15px);
+    margin-right: auto;
+    margin-left: auto;
+}
+.clientContainer::selection {
+    background: #ffd33b;
+    color: #ffffff;
+}
+.clientContainer h2{
+    visibility: visible;
+    animation-name: fadeScale;
+    animation-duration: 1s;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: normal;
+    color: #151515;
+}
+.clientContainer h2::selection {
+    background: #ffd33b;
+    color: #ffffff;
+}
+.clientContainer .carouselContainer
+{
+    display: block;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+.clientContainer .carouselContainer::selection {
+    background: #ffd33b;
+    color: #ffffff;
+}
+.clientContainer .clientSection .owl-item
+{
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-tap-highlight-color: transparent;
+    width: 100%;
+    z-index: 1;
+}
+.clientSection .owl-item::selection {
+    background: #ffd33b;
+    color: #ffffff;
+}
+.quote-carly-1 {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.quote-carly-1 ::selection {
+    background: #ffd33b;
+    color: #ffffff;
+}
+.quote-carly-text {
+    position: relative;
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 1.45;
+    font-weight: 400;
+    letter-spacing: .02em;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.quote-carly-text::selection {
+    background: #ffd33b;
+    color: #ffffff;
+}
+.quote-carly-icon {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 37px;
+    aspect-ratio: auto 37 / 29;
+}
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.quote-carly-icon::selection {
+    background: #ffd33b;
+    color: #ffffff;
+}
+.quote-carly-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e1e1e1;
+}
+.quote-carly-footer::selection {
+    background: #ffd33b;
+    color: #ffffff;
+}
+.unit {
+    display: flex;
+    flex: 0 1 100%;
+    margin-bottom: -10px;
+    margin-left: -10px;
+}
+.unit-spacing-sm {
+    margin-bottom: -10px;
+    margin-left: -20px;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.clientContainer .flex-column {
+    flex-direction: column !important;
+}
+.clientContainer .unit-spacing-sm > * {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.clientContainer .unit-left,.clientContainer  .unit-right {
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+.quote-carly-figure img {
+    border-radius: 50%;
+}
+.clientContainer .unit-body {
+    flex: 0 1 auto;
+}
+.quote-carly-author {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #151515;
+}
+.quote-carly-status {
+    font-style: italic;
+    letter-spacing: .025em;
+    color: #ffd33b;
+}
+.slick-list
+{
+    padding-bottom: 45 !important;
+}
+
+
+@media (min-width: 576px)
+{
+    .clientSection
+    {
+        padding: 70px 0;
+    }
+    .clientContainer
+    {
+        max-width: 540px;
+    }
+    .clientContainer h2
+    {
+        font-size: 26px;
+        line-height: 1.18182;
+    }
+    .carouselContainer
+    {
+        margin-top: 30px;
+    }
+    .clientSection .owl-item
+    {
+        width: 395.6px;
+        margin-right: 30px;
+    }
+}
+@media (min-width: 768px)
+{
+    .clientSection
+    {
+        padding: 90px 0;
+        font-size: 15px;
+    }
+    .clientContainer
+    {
+        max-width: 720px;
+        font-size: 15px;
+    }
+    .clientContainer h2
+    {
+        font-size: 35px;
+    }
+    .carouselContainer
+    {
+        margin-top: 40px;
+    }
+    .clientSection .owl-item
+    {
+    width: 330px;
+    margin-right: 30px;
+    }
+    .quote-carly {
+        text-align: left;
+    }
+    .quote-carly-footer, .quote-carly-text {
+        padding-left: 60px;
+    }
+    .quote-carly-text {
+        padding-top: 0;
+        font-size: 18px;
+    }
+    .quote-carly-text::before {
+        top: 6px;
+        left: 0;
+        font-size: 90px;
+        transform: none;
+    }
+    .quote-carly-footer {
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+    .flex-md-row {
+        flex-direction: row !important;
+    }
+}
+@media (min-width: 992px)
+{
+    .clientSection
+    {
+        padding: 100px 0;
+    }
+    .clientContainer
+    {
+        max-width: 960px;
+    }
+    .clientContainer h2
+    {
+        font-size: 45px;
+    }
+    .clientSection .owl-item
+    {
+    width: 450px;
+    margin-right: 30px;
+    }
+    .quote-carly-footer, .quote-carly-text {
+        padding-left: 64px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .clientSection
+    {
+        padding: 110px 0;
+    }
+    .clientContainer
+    {
+        max-width: 1200px;
+    }
+    .clientContainer h2
+    {
+        font-size: 55px;
+    }
+    .clientSection .owl-item
+    {
+    width: 570px;
+    margin-right: 30px;
+    }
+}
+@media (min-width: 1600px)
+{
+
+}

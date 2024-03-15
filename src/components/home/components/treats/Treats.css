@@ -1,0 +1,234 @@
+.treatsSection
+{
+    background-image: url('../../../../images/bg-cta-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: .03em;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #777777;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    padding: 70px 0;
+}
+.treatsSectionContainer
+{
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.treatsSectionContainer h2{
+    visibility: visible;
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: normal;
+    color: #151515;
+}
+@keyframes fadeInDown
+{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -40px, 0);
+        transform: translate3d(0, -40px, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.treatsSectionContainer h2::selection
+{
+    background: #ffd33b;
+    color: #ffffff;
+}
+.treatsSectionContainer h4{
+    visibility: visible;
+    animation-name: fadeScale;
+    animation-duration: 1s;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: normal;
+    color: #151515;
+}
+@keyframes fadeScale
+{
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+h2 + h4 {
+    margin-top: 15px;
+}
+.treatsSectionContainer h4::selection
+{
+    background: #ffd33b;
+    color: #ffffff;
+}
+.treatsSectionContainer a{
+    visibility: visible;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    display: block;
+    max-width: 220px;
+    margin: 30px auto 0 auto;
+    font-weight: 700 !important;
+    padding: 9px 25px;
+    font-size: 14px;
+    line-height: 2;
+    color: #ffffff !important;
+    background-color: #ffd33b;
+    border-color: #ffd33b;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid;
+    border-radius: 6px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    transition: all 250ms ease-in-out;
+}
+.treatsSectionContainer a:hover,.treatsSectionContainer a:active,.treatsSectionContainer a:focus
+{
+    text-decoration: none;
+    background-color: black;
+}
+.treatsSectionContainer a::selection
+{
+    background: #ffd33b;
+    color: #ffffff;
+}
+@keyframes fadeInUp
+{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 40px, 0);
+        transform: translate3d(0, 40px, 0);
+    }
+    
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@media (min-width: 576px)
+{
+    .treatsSection
+    {
+        padding: 70px 0;
+    }
+    .treatsSectionContainer
+    {
+        max-width: 540px;
+    }
+    .treatsSectionContainer h2
+    {
+        font-size: 26px;
+    line-height: 1.18182;
+    }
+    .treatsSectionContainer a
+    {
+        margin-top: 30px;
+    }
+}
+@media (min-width: 768px)
+{
+    .treatsSection
+    {
+        padding: 90px 0;
+    }
+    .treatsSectionContainer
+    {
+        max-width: 720px;
+    }
+    .treatsSectionContainer h2
+    {
+        font-size: 35px;
+    }
+    .treatsSectionContainer h4
+    {
+        font-size: 20px;
+    }
+    .treatsSectionContainer a
+    {
+        padding: 14px 45px;
+    }
+}
+@media (min-width: 992px)
+{
+    .treatsSection
+    {
+        padding: 100px 0;
+    }
+    .treatsSectionContainer
+    {
+        max-width: 960px;
+    }
+    .treatsSectionContainer h2
+    {
+        font-size: 45px;
+    }
+    .treatsSectionContainer h4
+    {
+        font-size: 22px;
+    }
+    .treatsSectionContainer a
+    {
+        margin: 40px auto 0 auto;
+        padding: 19px 50px;
+    }
+    
+
+}
+@media (min-width: 1200px)
+{
+    .treatsSection
+    {
+        padding: 120px 0;
+    }
+    .treatsSectionContainer
+    {
+        max-width: 1200px;
+    }
+    .treatsSectionContainer h2
+    {
+        font-size: 55px;
+    }
+    .treatsSectionContainer h4
+    {
+        font-size: 24px;
+    }
+    .treatsSectionContainer a
+    {
+        margin-top: 38px;
+    }
+}
+@media (min-width: 1600px)
+{
+
+}

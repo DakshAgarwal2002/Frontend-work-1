@@ -1,0 +1,223 @@
+.SecondBanner
+{
+    background-image: url(../../../../images/bg-cta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffd33b;
+    padding: 70px 0;
+    text-align: left;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: .03em;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.SecondBannerContainer
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+}
+.banner2InnerDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:-15px;
+    margin-left:-15px;
+}
+.banner2Main
+{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.SecondBannerContainer h2{
+    animation-name: fadeInRight;
+    color: #ffffff !important;
+    animation-duration: 1s;
+    font-size: 26px;
+    line-height: 1.18182;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+}
+.SecondBannerContainer h4{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 15px;
+    animation-delay: 0.1s;
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: normal;
+}
+.SecondBannerContainer p{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 58.33333%;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 0;
+    letter-spacing: .03em;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+}
+.SecondBannerContainer a{
+    color: #151515;
+    background-color: #ffffff;
+    border-color: #ffffff !important;
+    text-decoration: none;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    margin-top: 30px;
+    padding: 9px 25px;
+    font-size: 14px;
+    line-height: 2;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 6px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+}
+.SecondBannerContainer a:hover{
+    background-color: #e1e1e1;
+    color: #000000;
+    border-color: #e1e1e1 !important;
+}
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(40px, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeInUp
+{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 40px, 0);
+        transform: translate3d(0, 40px, 0);
+    }
+    
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@media (min-width: 576px)
+{
+    .SecondBannerContainer
+    {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px)
+{
+    .SecondBanner
+    {
+        padding: 90px 0;
+    }
+    .SecondBannerContainer
+    {
+        max-width: 720px;
+    }
+    .banner2Main
+    {
+        flex: 0 0 auto;
+    width: 58.33333%;
+    }
+    .SecondBanner h2{
+        font-size: 35px;
+    }
+    .SecondBanner h2{
+        font-size: 20px;
+    }
+    .SecondBannerContainer a
+    {
+        padding: 14px 45px;
+    }
+}
+@media (min-width: 992px)
+{
+    .SecondBanner
+    {
+        padding: 100px 0;
+    }
+    .SecondBannerContainer
+    {
+        max-width: 960px;
+    }
+    .SecondBanner h2{
+        font-size: 45px;
+    }
+    .SecondBanner h2{
+        font-size: 22px;
+    }
+    .SecondBannerContainer a
+    {
+        padding: 19px 50px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .SecondBanner
+    {
+        padding: 110px 0;
+    }
+    .SecondBannerContainer
+    {
+        max-width: 1200px;
+    }
+    .SecondBanner h2{
+        font-size: 55px;
+    }
+    .SecondBanner h4{
+        font-size: 24px;
+    }
+    .SecondBannerContainer p
+    {
+        margin-top: 23px;
+    }
+    .SecondBannerContainer a
+    {
+        margin-top: 38px;
+    }
+}
+@media (min-width: 1600px)
+{
+    .SecondBanner
+    {
+        padding: 120px 0 136px;
+    }
+}
